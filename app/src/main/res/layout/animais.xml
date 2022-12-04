@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat"
+    android:background="@drawable/papaer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bj" />
+
+    <Button
+        android:id="@+id/bkani"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/bk" />
+
+    <Button
+        android:id="@+id/homeani"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/home" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:text="Animais"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/x21"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"
+                app:srcCompat="@drawable/animais1" />
+
+            <ImageView
+                android:id="@+id/x22"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais2"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x23"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais3"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x24"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais4"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x25"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x26"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais6"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x27"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais7"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

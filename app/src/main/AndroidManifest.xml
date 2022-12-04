@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.denovo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ShopActivity"></activity>
+        <activity android:name=".carrinho"></activity>
+        <activity android:name=".a1" />
+        <activity android:name=".tds_almofadas" />
+        <activity android:name=".almofadas2" />
+        <activity android:name=".todos" />
+        <activity android:name=".pin" />
+        <activity android:name=".gym" />
+        <activity android:name=".games" />
+        <activity android:name=".filmes" />
+        <activity android:name=".canecas" />
+        <activity android:name=".bebidass" />
+        <activity android:name=".baskket" />
+        <activity android:name=".autoculantes" />
+        <activity android:name=".anim" />
+        <activity android:name=".animais" />
+        <activity android:name=".almofadas" />
+        <activity android:name=".cat" />
+        <activity android:name=".forum1" />
+        <activity android:name=".e" />
+        <activity android:name=".tt6" />
+        <activity android:name=".tt5" />
+        <activity android:name=".tt4" />
+        <activity android:name=".tt3" />
+        <activity android:name=".tt2" />
+        <activity android:name=".tt" />
+        <activity android:name=".d" />
+        <activity android:name=".main2" />
+        <activity android:name=".c" />
+        <activity android:name=".b" />
+        <activity android:name=".ProductDetails"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cart.CartActivity" />
+    </application>
+
+</manifest>

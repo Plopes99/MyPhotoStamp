@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyPhotoStamp</string>
+    <string name="dont_have_account">Ainda não tenho conta</string>
+    <string name="login">Entrar</string>
+    <string name="sign_up">Registar</string>
+    <string name="email">Email</string>
+    <string name="password">Palavra-passe</string>
+    <string name="back">Retroceder</string>
+    <string name="log_out">Terminar Sessão</string>
+    <string name="Forum">Fórum</string>
+    <string name="categoria">Categorias</string>
+    <string name="carrinho">Carrinho</string>
+    <string name="fazer_produto">Fazer Produto</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="seguinte">Seguinte</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="nome">Nome</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Feminino">Feminino</string>
+    <string name="sexo">Sexo</string>
+    <string name="feito">Feito!</string>
+    <string name="inf">Inf. Pessoais</string>
+    <string name="cat1">Animes</string>
+    <string name="cat2">Animais</string>
+    <string name="cat3">Basquete</string>
+    <string name="cat4">Bebidas</string>
+    <string name="cat5">Filmes</string>
+    <string name="cat6">Games</string>
+    <string name="cat7">Gym</string>
+    <string name="add">Adicionar ao Carrinho</string>
+    <string name="Descriçao">Dê cor ao seu dia a dia com produtos personalizados por si e feitos por nós para que tire o máximo proveito de cada produto e poser surpreender os seus amigos.\n Entregas Portugal: 3-5 dias\nEntrgas Ilhas: 7-10 dias\nProduto limitado ao stock exitente</string>
+</resources>

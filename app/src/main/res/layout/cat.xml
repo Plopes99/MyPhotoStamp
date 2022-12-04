@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat"
+    android:background="@drawable/papaer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bj" />
+
+    <Button
+        android:id="@+id/bkalmo"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/bk" />
+
+    <Button
+        android:id="@+id/homealmo"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/home" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:text="Categorias"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/bebidaz"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/bebida"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/almofadass"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"
+                app:srcCompat="@drawable/almo" />
+
+            <ImageView
+                android:id="@+id/animaiss"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/animais"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/animes"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/anime"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/autoo"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/auto"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/bask"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/basket"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/caneecas"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/caneca"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/fillm"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/gyym"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/gym"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/gaame"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/pinn"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/pin"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

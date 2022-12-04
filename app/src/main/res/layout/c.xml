@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c"
+    android:background="@drawable/a1">
+
+
+
+    <Button
+        android:id="@+id/forum"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/sombra"
+        android:drawableEnd="@drawable/forum"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="@string/Forum"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sombra"
+        android:fontFamily="serif"
+        android:text="@string/carrinho"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:drawableEnd="@drawable/carrinho"/>
+
+    <Button
+        android:id="@+id/inf"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/sombra"
+        android:drawableEnd="@drawable/editar"
+        android:fontFamily="serif"
+        android:text="@string/fazer_produto"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/catte"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/sombra"
+        android:drawableEnd="@drawable/categoria"
+        android:fontFamily="serif"
+        android:text="@string/categoria"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bj"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/tres"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/info" />
+
+</RelativeLayout>

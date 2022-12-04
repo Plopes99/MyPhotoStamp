@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e"
+    android:background="@drawable/papaer">
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="272dp"
+                android:layout_height="91dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/bj" />
+
+            <Button
+                android:id="@+id/bke"
+                android:layout_width="51dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/bk" />
+
+            <Button
+                android:id="@+id/homee"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="352dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/home" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="575dp"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/sexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/log"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Nome Próprio"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/nome1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/sex"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Sexo"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/nascimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/ceg"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Nascimento"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/nif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/nif"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="NIF"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/telemovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Telemóvel"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/pais"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="País"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/postal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/postal"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Código-Postal"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_edit_background"
+                android:drawableStart="@drawable/local"
+                android:drawablePadding="10dp"
+                android:fontFamily="serif"
+                android:hint="Localidade"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/sig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/feito"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/femea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="117dp"
+                android:text="                             "
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

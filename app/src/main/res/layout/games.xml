@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat"
+    android:background="@drawable/papaer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bj" />
+
+    <Button
+        android:id="@+id/bkgm"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/bk" />
+
+    <Button
+        android:id="@+id/homegm"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/home" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:text="Games"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/x81"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"
+                app:srcCompat="@drawable/game1" />
+
+            <ImageView
+                android:id="@+id/x82"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game2"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x83"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game3"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x84"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game4"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x85"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x86"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game6"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x87"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/game7"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

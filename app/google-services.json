@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865742523153",
+    "firebase_url": "https://denovo-34c30.firebaseio.com",
+    "project_id": "denovo-34c30",
+    "storage_bucket": "denovo-34c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865742523153:android:b055b4210c266044e81ab0",
+        "android_client_info": {
+          "package_name": "com.example.denovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865742523153-iona9o48n273usql5ju3p85s80k85v9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMplmXUtMAFi3eVQpnM9oe-G4Iq5uxwEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865742523153-iona9o48n273usql5ju3p85s80k85v9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

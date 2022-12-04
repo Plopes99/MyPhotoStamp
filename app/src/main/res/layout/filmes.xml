@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cat"
+    android:background="@drawable/papaer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bj" />
+
+    <Button
+        android:id="@+id/bkfilm"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/bk" />
+
+    <Button
+        android:id="@+id/homefilm"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/home" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:text="Filmes"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/x71"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"
+                app:srcCompat="@drawable/filmes1" />
+
+            <ImageView
+                android:id="@+id/x72"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes2"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x73"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes3"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x74"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes4"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x75"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x76"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes6"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x77"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes7"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+            <ImageView
+                android:id="@+id/x78"
+                android:layout_width="370dp"
+                android:layout_height="370dp"
+                app:srcCompat="@drawable/filmes8"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/sombra2"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
